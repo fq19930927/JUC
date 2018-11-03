@@ -1,13 +1,13 @@
 package com.fuqiang.syn;
 
-import net.jcip.annotations.NotThreadSafe;
+import com.fuqiang.annotation.ThreadNoSafe;
 
 /**
  * 线程安全
  * @author fuqiang
  * @version Sync01, v0.1 2018/11/2 22:30
  */
-@NotThreadSafe
+@ThreadNoSafe
 public class Sync02 implements Runnable {
 	static int i = 0;
 

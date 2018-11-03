@@ -1,6 +1,6 @@
 package com.fuqiang.syn;
 
-import net.jcip.annotations.ThreadSafe;
+import com.fuqiang.annotation.ThreadSafe;
 
 /**
  * 线程安全
